@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Spell-A-Day</title>
+	<link rel="stylesheet" href="./font/stylesheet.css">
+	<link rel="stylesheet" href="./app/app.css">
+</head>
+<body ng-app="app">
+
+	<magic-spells id="universe">
+
+		<magic-die label="A"></magic-die>
+		<magic-die label="B"></magic-die>
+		<magic-die label="C"></magic-die>
+		<magic-die label="D"></magic-die>
+		<magic-die label="E"></magic-die>
+		<magic-die label="F"></magic-die>
+
+	</magic-spells>
+
+	<script src="./node_modules/angular/angular.js"></script>
+
+	<script src="./magic/effects.js"></script>
+	<script src="./magic/elements.js"></script>
+	<script src="./magic/forms.js"></script>
+	<script src="./magic/combos.js"></script>
+
+	<script src="./app/app.module.js"></script>
+	<script src="./app/spells.component.js"></script>
+	<script src="./app/die.component.js"></script>
+
+</body>
+</html>
