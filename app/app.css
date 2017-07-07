@@ -13,6 +13,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
+	width: 100vw;
 }
 
 .magic-die .die.selected {
@@ -21,9 +22,9 @@ body{
 }
 
 .magic-die .die {
-    font-size: 4em;
+    font-size: 6vmin;
 	background: rgb(230,230,230);
-	margin: 8px;
+	margin: 1vw;
     font-family: "Quivira";
     color: black;
     -webkit-user-select: none;
@@ -34,9 +35,8 @@ body{
     cursor: pointer;
     /* border: 1px solid blue; */
     display: flex;
-    height: 100px;
-    width: 100px;
-    min-width: 100px;
+    height: 9vmin;
+    width: 9vmin;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -54,10 +54,10 @@ body{
 	left: 0;
 	z-index: 100;
 	background: rgba(255,255,255,.9);
-	font-size: 1.5em;
+	font-size: 4vmin;
 }
 .fillPage .big{
-	font-size: 4em;
+	font-size:7vmin;
 }
 .fillPage .clickme{
 	cursor: pointer;
